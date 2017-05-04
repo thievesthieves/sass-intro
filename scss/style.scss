@@ -1,0 +1,58 @@
+/* Diese Regel nicht verändern! */
+div {
+  background-color: black;
+  position: absolute; }
+
+/* Deine Parameter: */
+$one:         2%;
+$two:     $one*2;
+$three:   $one*3;
+$four:    $one*4;
+$five:    $one*5;
+$six:     $one*6;
+
+$bridge:      2%;
+$side:       10%;
+
+/* Ab hier deine Regeln :-) */
+.el-1 {
+  top:     $bridge;
+  height:     $one;
+  left: $six+$side;
+  right:$six+$side;
+}
+
+.el-2 {
+  top:    $one+$bridge*2;
+  height: $two;
+  left:   $five+$side;
+  right:  $five+$side;
+}
+
+.el-3 {
+  top:    $two+$bridge*6;
+  height: $three;
+  left:   $four+$side;
+  right:  $four+$side;
+}
+
+.el-4 {
+  top:    $three+$bridge*13;
+  height: $four;
+  left:   $three+$side;
+  right:  $three+$side;
+}
+
+.el-5 {
+  top:    $four+$bridge*23;
+  height: $five;
+  left:   $two+$side;
+  right:  $two+$side;
+}
+
+.el-6 {
+  top:    $five+$bridge*36;
+  height: $six;
+  left:   $one+$side;
+  right:  $one+$side;
+}
