@@ -12,7 +12,7 @@ div {
   height: 2%;
   left: 28%;
   right: 28%;
-  background-color: red;
+  background-color: blue;
 }
 
 .el-2 {
@@ -20,7 +20,7 @@ div {
   height: 4%;
   left: 26%;
   right: 26%;
-  background-color: #ff5252;
+  background-color: #5252ff;
 }
 
 .el-3 {
@@ -28,7 +28,7 @@ div {
   height: 6%;
   left: 24%;
   right: 24%;
-  background-color: #ff7a7a;
+  background-color: #7a7aff;
 }
 
 .el-4 {
@@ -36,7 +36,7 @@ div {
   height: 8%;
   left: 22%;
   right: 22%;
-  background-color: #ffa3a3;
+  background-color: #a3a3ff;
 }
 
 .el-5 {
@@ -44,7 +44,7 @@ div {
   height: 10%;
   left: 20%;
   right: 20%;
-  background-color: #ffcccc;
+  background-color: #ccccff;
 }
 
 .el-6 {
@@ -52,5 +52,5 @@ div {
   height: 12%;
   left: 18%;
   right: 18%;
-  background-color: #fff5f5;
+  background-color: #f5f5ff;
 }
