@@ -10,42 +10,47 @@ div {
 .el-1 {
   top: 2%;
   height: 2%;
-  left: 22%;
-  right: 22%;
+  left: 28%;
+  right: 28%;
   background-color: red;
 }
 
 .el-2 {
   top: 6%;
   height: 4%;
-  left: 20%;
-  right: 20%;
+  left: 26%;
+  right: 26%;
+  background-color: #ff1414;
 }
 
 .el-3 {
   top: 16%;
   height: 6%;
-  left: 18%;
-  right: 18%;
+  left: 24%;
+  right: 24%;
+  background-color: #ff1f1f;
 }
 
 .el-4 {
   top: 32%;
   height: 8%;
-  left: 16%;
-  right: 16%;
+  left: 22%;
+  right: 22%;
+  background-color: #ff2929;
 }
 
 .el-5 {
   top: 54%;
   height: 10%;
-  left: 14%;
-  right: 14%;
+  left: 20%;
+  right: 20%;
+  background-color: #ff3333;
 }
 
 .el-6 {
   top: 82%;
   height: 12%;
-  left: 12%;
-  right: 12%;
+  left: 18%;
+  right: 18%;
+  background-color: #ff3d3d;
 }

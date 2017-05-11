@@ -10,10 +10,10 @@ $three:   $one*3;
 $four:    $one*4;
 $five:    $one*5;
 $six:     $one*6;
-$colour:   red;
+$base-colour:   red;
 
 $bridge:    $one;
-$side:    $one*5;
+$side:    $one*8;
 
 /* Ab hier deine Regeln :-) */
 .el-1 {
@@ -21,7 +21,7 @@ $side:    $one*5;
   height:     $one;
   left: $six+$side;
   right:$six+$side;
-  background-color: $colour;
+  background-color: $base-colour;
 }
 
 .el-2 {
@@ -29,6 +29,7 @@ $side:    $one*5;
   height: $two;
   left:   $five+$side;
   right:  $five+$side;
+  background-color: lighten($base-colour, $two);
 }
 
 .el-3 {
@@ -36,6 +37,7 @@ $side:    $one*5;
   height: $three;
   left:   $four+$side;
   right:  $four+$side;
+  background-color: lighten($base-colour, $three);
 }
 
 .el-4 {
@@ -43,6 +45,7 @@ $side:    $one*5;
   height: $four;
   left:   $three+$side;
   right:  $three+$side;
+  background-color: lighten($base-colour, $four);
 }
 
 .el-5 {
@@ -50,6 +53,7 @@ $side:    $one*5;
   height: $five;
   left:   $two+$side;
   right:  $two+$side;
+  background-color: lighten($base-colour, $five);
 }
 
 .el-6 {
@@ -57,4 +61,5 @@ $side:    $one*5;
   height: $six;
   left:   $one+$side;
   right:  $one+$side;
+  background-color: lighten($base-colour, $six);
 }
