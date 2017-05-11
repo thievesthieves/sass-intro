@@ -12,8 +12,8 @@ $five:    $one*5;
 $six:     $one*6;
 $colour:   red;
 
-$bridge:      2%;
-$side:       10%;
+$bridge:    $one;
+$side:    $one*5;
 
 /* Ab hier deine Regeln :-) */
 .el-1 {
