@@ -2,7 +2,7 @@
 /* Diese Regel nicht verändern! */
 div {
   background-color: black;
-  position: relative;
+  position: absolute;
 }
 
 /* Deine Parameter: */
