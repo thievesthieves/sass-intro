@@ -29,7 +29,7 @@ $side:    $one*8;
   height: $two;
   left:   $five+$side;
   right:  $five+$side;
-  background-color: lighten($base-colour, $two);
+  background-color: lighten($base-colour, $two*4);
 }
 
 .el-3 {
@@ -37,7 +37,7 @@ $side:    $one*8;
   height: $three;
   left:   $four+$side;
   right:  $four+$side;
-  background-color: lighten($base-colour, $three);
+  background-color: lighten($base-colour, $three*4);
 }
 
 .el-4 {
@@ -45,7 +45,7 @@ $side:    $one*8;
   height: $four;
   left:   $three+$side;
   right:  $three+$side;
-  background-color: lighten($base-colour, $four);
+  background-color: lighten($base-colour, $four*4);
 }
 
 .el-5 {
@@ -53,7 +53,7 @@ $side:    $one*8;
   height: $five;
   left:   $two+$side;
   right:  $two+$side;
-  background-color: lighten($base-colour, $five);
+  background-color: lighten($base-colour, $five*4);
 }
 
 .el-6 {
@@ -61,5 +61,5 @@ $side:    $one*8;
   height: $six;
   left:   $one+$side;
   right:  $one+$side;
-  background-color: lighten($base-colour, $six);
+  background-color: lighten($base-colour, $six*4);
 }
